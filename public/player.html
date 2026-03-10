@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'Accueil du Tournoi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="player.js"></script>
+</head>
+<body>
+<header>
+    <h1 class="highlight">Echec et Mat</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="home.html">Accueil</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<section>
+    <aside>
+        <ul id="player-list">
+            <li class="title">Liste des joueurs enregistrés</li>
+        </ul>
+    </aside>
+    <form id="player-form" action="#" method="post">
+        <h2 class="highlight">Enregistrement d'un nouveau joueur</h2>
+        <div class="input-group">
+            <label for="lastname">Nom :</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Entrez votre nom" required>
+        </div>
+        <div class="input-group">
+            <label for="firstname">Prénom :</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Entrez votre prénom" required>
+        </div>
+        <div class="input-group">
+            Sexe :
+            <label for="H"></label><input type="radio" id="H" name="sex" value="H" checked>Homme
+            <label for="F"></label><input type="radio" id="F" name="sex" value="F">Femme
+        </div>
+        <div class="input-group">
+            <label for="country">Nation :</label>
+            <select id="country" name="country">
+                <option value="AM">Arménie</option>
+                <option value="BE">Belgique</option>
+                <option value="CN">Chine</option>
+                <option value="DE">Allemagne</option>
+                <option value="FR" selected>France</option>
+                <option value="GE">Géorgie</option>
+                <option value="IO">Indien</option>
+                <option value="NO">Norvège</option>
+                <option value="PL">Pologne</option>
+                <option value="RU">Russie</option>
+                <option value="SE">Suède</option>
+                <option value="UA">Ukraine</option>
+                <option value="US">États-Unis</option>
+                <option value="UZ">Ouzbékistan</option>
+            </select>
+        </div>
+        <button type="submit">Enregistrer le joueur</button>
+    </form>
+</section>
+<footer>
+    <p>&copy; 2024 Jeu d'Échecs. Tous droits réservés.</p>
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                 src="http://jigsaw.w3.org/css-validator/images/vcss"
+                 alt="CSS Valide !">
+        </a>
+    </p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,231 @@
+body{
+  width: 98%;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  background-image: url('images/echec_et_mat.jpg');
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: cover;
+  color: white;
+  background-position: center 50px;
+}
+
+.about-section{
+  background-color: #555a5e7a;
+}
+
+.image_tr{
+  justify-content: center; /* Aligner horizontalement au centre */
+  align-items: center;
+  height: 350px;
+  width: auto;
+}
+
+
+.image_tr {
+  height: 350px;
+}
+
+.menu {
+  text-align: center;
+}
+
+
+.about-section_a{
+  color: #ffcc00;
+}
+
+p {
+  padding: 0 10px;
+}
+
+nav{
+  background-color: #202122b7;
+
+}
+  
+nav ul{
+  list-style-type: none;
+  padding: 10px 0;
+  text-align: center;
+}
+  
+nav ul li{
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a{
+  color: white;
+}
+
+nav ul li a:hover{
+  color: #ffcc00; /* Jaune */
+  transition: background-color 0.3s ease;
+}
+
+aside{
+  float: right;
+}
+
+aside a{
+  color: black;
+}
+
+aside li{
+  color: black;
+  background-color: white;
+  list-style-type: none;
+  padding: 10px;
+}
+
+aside .title{
+  color: #fff;
+  background-color: #ffcc00;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+footer{
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #202122b7;
+}
+
+#menu{
+  background-position: center 140px;
+}
+
+.menu{
+  text-align: center;
+  background-color: #555a5e7a;
+  background-position: center 140px;
+  font-size: x-large;
+}
+
+.menu img{
+  max-width: 320px;
+  max-height: 240px;
+}
+
+a{
+  text-decoration: none;
+}
+
+tr{
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+h1{
+  font-size: xxx-large;
+  text-align: center;
+}
+
+h2{
+  font-size: xx-large;
+  text-align: center;
+}
+
+.asso {
+  color: #e6e670;
+}
+
+.container{
+  width: 320px;
+  height: 240px;
+  margin: 50px;
+  padding: 10px 10px 40px;
+  font-size: 25px;
+  font-weight: bold;
+  border: 3px solid gray;
+  border-radius: 10px;
+  background-color: lightgray;
+  color: black;
+  transition: background-color 0.3s ease;
+  flex: 1;
+}
+
+.container:hover{
+  background-color: darkgray;
+  color: white;
+}
+
+.highlight{
+  color: #ffcc00;
+}
+
+textarea{
+  resize: vertical;
+}
+
+form{
+  width: 400px;
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+label{
+  margin-bottom: 5px;
+  color: #333;
+}
+
+#capacity{
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+select,
+textarea{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="button"],
+button[type="submit"]{
+  background-color: #ffcc00;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="button"],
+button[type="submit"],
+select,
+textarea{
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+}
+
+input[type="button"]:hover,
+button[type="submit"]:hover{
+  background-color: #ffaa00;
+}
+
+.input-group{
+  margin-bottom: 20px;
+}
+
+.error{
+  color: red;
+  margin-top: 5px;
+}
+
+.register-form a{
+  color: black;
+}
